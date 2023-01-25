@@ -20,14 +20,16 @@ The four function is used to take each line from the main file.
 The four function is used to take each line from the main file.
 
 ## PROGRAM:
+```
 #Developed By:-PRAVEEN S
 #Register number:-22009017
 with open("sample1.txt", "r") as firstfile:
     with open("sample2.txt", "a") as secondfile:
         for line in firstfile:
             secondfile.write(line)
+```
 ### OUTPUT:
 ![sample1](sam1.png)
-![sample2](sam2.png)
+![sample2](sample2.png)
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
